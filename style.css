@@ -32,7 +32,7 @@ h1 {
 
 .header-body {
   display: flex;
-  padding: 40px 40px 0 40px;
+  padding: 40px 40px 0 60px;
 }
 
 .header-body-left {
@@ -40,10 +40,23 @@ h1 {
   flex-direction: column;
   justify-content: center;
   width: 45%;
+  gap: 40px;
 }
 
 .header-body-left h2 {
   font-size: 48px;
+}
+
+.header-body-left button {
+  width: 150px;
+  height: 75px;
+  border-radius: 20px;
+  background-color: #3882f6;
+  color: #f9faf8;
+  border: none;
+  box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.75);
 }
 
 .header-body-right {
@@ -55,9 +68,48 @@ h1 {
 
 .header-body-right img {
   width: auto;
-  height: 275px;
+  height: 325px;
+  border-radius: 30px;
+  box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.75);
 }
 
 .header-body-left p {
   font-size: 18px;
+}
+
+.icon-section {
+  display: flex;
+  justify-content: space-evenly;
+  width: auto;
+}
+
+.icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.icon i {
+  font-size: 60px;
+  color: #3882f6;
+}
+
+.review {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  background-color: #e9ebe8;
+  padding: 25px 300px;
+  font-size: 36px;
+}
+
+.review span {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
 }
