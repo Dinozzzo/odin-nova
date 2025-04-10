@@ -16,8 +16,10 @@ header {
   color: #f9faf8;
 }
 
-h1 {
+h1,
+.footer-left span {
   font-size: 24px;
+  font-weight: 900;
 }
 
 .navbar {
@@ -25,7 +27,12 @@ h1 {
   justify-content: space-between;
 }
 
-.navbar a {
+.navbar nav {
+  display: flex;
+  gap: 40px;
+}
+
+a {
   text-decoration: none;
   color: #f9faf8;
 }
@@ -103,7 +110,7 @@ h1 {
   justify-content: center;
   align-items: center;
   height: 300px;
-  background-color: #e9ebe8;
+  background-color: #e5e7eb;
   padding: 25px 300px;
   font-size: 36px;
 }
@@ -112,4 +119,49 @@ h1 {
   width: 100%;
   display: flex;
   justify-content: flex-end;
+}
+
+.call {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+
+.call-body {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #3882f6;
+  height: 130px;
+  width: 1000px;
+  border-radius: 30px;
+  color: #e5e7eb;
+  font-size: 20px;
+}
+
+.call-button button {
+  width: 125px;
+  height: 60px;
+  border-radius: 15px;
+  color: #e5e7eb;
+  border: 3px solid #e5e7eb;
+  background-color: #3882f6;
+  font-size: 17px;
+  font-weight: 900;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 25px;
+  background-color: #1f2937;
+  height: 100px;
+  color: #e5e7eb;
+}
+
+.footer-right {
+  display: flex;
+  gap: 50px;
 }
